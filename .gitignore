@@ -1,0 +1,15 @@
+# exclude binaries and debug output
+.vs/
+bin/
+debug/
+x64/
+
+# exclude external libraries
+libs/
+
+# exclude personal settings
+*framework.h
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
